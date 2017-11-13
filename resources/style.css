@@ -1,0 +1,97 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+  margin:auto;
+}
+.content{
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 5;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.logo img {
+  height: 50px;
+}
+a {
+  color: seashell;
+}
+#mission {
+  background-image: url(file://C:/users/nooreo/teacozy/resources/images/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.RowMission {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+#featured {
+  width: 1000px;
+  padding-top: 70px;
+}
+.RowFeatured {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.tea {
+  padding: 5px;
+}
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+.tea span {
+  display: block;
+  margin-top: 5px;
+}
+#locations {
+  background-image: url(file://C:/users/nooreo/teacozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-top: 70px;
+}
+.RowLocations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+.address {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h2 {
+  padding: 10px;
+}
+#contact {
+  height: 200px;
+}
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
